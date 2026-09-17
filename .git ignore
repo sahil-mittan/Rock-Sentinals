@@ -1,0 +1,57 @@
+# Python
+
+**pycache**/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+
+node_modules/
+npm-debug.log*
+
+# Environment files
+
+.env
+.env.local
+
+# IDE
+
+.vscode/
+.idea/
+
+# OS
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# AI / YOLO generated files
+
+runs/
+wandb/
+*.pt
+*.pth
+*.onnx
+
+# Large datasets
+
+data/raw/
+data/processed/
+
+# Temporary files
+
+*.tmp
+*.temp
+
+# Build files
+
+dist/
+build/
+
+# Secrets
+
+credentials.json
+service-account.json
+*.pem
+*.key
